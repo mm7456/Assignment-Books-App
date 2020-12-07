@@ -1,0 +1,32 @@
+.details{
+    margin-top: 20%;
+    /* margin-right: 50px; */
+    padding: 15px;
+
+    width: 250px;
+    height: 100%;
+    background-color: #ff8e71;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+div > .description{
+    /* overflow-wrap: break-word; */
+    word-wrap: break-word;
+    /* hyphens: auto; */
+}
+
+span{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: #145374;
+    margin: 5px;
+    color: white;
+}
+
+

@@ -1,0 +1,94 @@
+.newBook{
+    width: 100%;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 45%;
+}
+
+.btn-success{
+    background-color: blueviolet;
+
+}   
+
+.flex-container {
+    display: -webkit-box;
+
+    display: flex;
+    background-color: DodgerBlue;
+    justify-content: space-between;
+   
+
+
+  }
+
+  .flex-container .col{
+    width: 15%;
+
+ }
+
+
+ 
+   .flex-grid-thirds {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-evenly;
+            justify-content: space-between;
+
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 70%;
+
+
+  } 
+  
+  .flex-grid-thirds .col {
+    width: 400px;
+  }
+  
+  @media (max-width: 400px) {
+    .flex-grid,
+    .flex-grid-thirds {
+      display: block;
+    }
+    .flex-grid .col,
+    .flex-grid-thirds .col {
+      width: 100%;
+      margin: 0 0 10px 0;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+
+  
+  .col {
+    background: salmon;
+    padding: 20px;
+  }
+
+  app-book-item{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 170px;
+    padding: 10px;
+    background-color: #98acf8;
+    border-radius: 15px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-gap: 5px 10px;
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    width :70%;
+  }

@@ -1,35 +1,22 @@
-import { TestBed, async } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import { async, TestBed } from '@angular/core/testing';
 
-describe('AppComponent', () => {
-  beforeEach(async(() => {
+describe('AppComponent',()=>{
+  let fixure: any;
+  let component: any;
+
+  beforeEach(async(()=>{
     TestBed.configureTestingModule({
-      imports: [
-        RouterTestingModule
-      ],
-      declarations: [
-        AppComponent
-      ],
+      declarations: [ AppComponent ]
     }).compileComponents();
+    fixure=TestBed.createComponent(AppComponent);
   }));
 
-  it('should create the app', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app).toBeTruthy();
-  });
-
-  it(`should have as title 'books-sharing-app'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('books-sharing-app');
-  });
-
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('books-sharing-app app is running!');
+  describe('Test: Component',()=>{
+    it('should be initialized', ()=>{
+      expect(fixure).toBeTruthy();
+      fixure.detectChanges();
+      const compiled = fixure.debugElement.nativeElement;
+    });
   });
 });

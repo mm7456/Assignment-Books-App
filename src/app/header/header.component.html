@@ -1,0 +1,23 @@
+<nav>
+    <ul>
+        <li>
+            <a class="active">Books App</a>
+        </li>
+        <li class="center">
+            <span> Hi, {{name}}</span>
+        </li>
+        <li style="float:right" *ngIf="!isLoggedIn">
+            <a routerLink="auth">Login</a>
+        </li>
+        <li style="float:right" *ngIf="!isLoggedIn">
+            <a routerLink="auth">Sign Up</a>
+        </li>
+        <li style="float:right" *ngIf="isLoggedIn" (click)="onLogout()">
+            <a>Logout</a>
+        </li>
+        <li>
+            <fa-icon [icon]="faLightbulb" (click)="toggleTheme()"></fa-icon>
+
+        </li>
+    </ul>
+</nav>

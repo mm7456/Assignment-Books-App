@@ -1,0 +1,32 @@
+  .grid-item{
+    background-color: darkorange;
+    font-size: 20px;
+     }
+
+  .grid-item > div{
+    position: relative;
+  }
+
+  label{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    color: #333;
+    height: 15px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: right;
+    clear: both;
+    float:left;
+    margin-right:10px;
+  }
+  span{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 15px;
+    height: 15px;
+    width: 150px;
+    margin-top: 10px;
+    float: left;
+    word-wrap: break-word;
+    color: #333;
+  }

@@ -1,0 +1,35 @@
+.form{
+    margin-left:40%;
+    margin-top:50px;
+    width:40%;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+
+}
+
+input{
+    display: block;
+    height: 20px;
+    width:50%;
+}
+
+.field{
+    margin-bottom: 15px;
+}
+.btn1{
+    width:20%;
+    height: 30px;
+    background-color: dodgerblue;
+    font-size: 15px;
+    color: black;
+    
+}
+.btn2{
+    width: 30%;
+    height: 30px;
+    background-color: lightcoral;
+    font-size: 15px;
+    color: black;
+
+}

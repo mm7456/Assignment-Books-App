@@ -1,0 +1,11 @@
+<div class="newBook">
+      <button type="button"  class="btn btn-success" (click)="onNewBook()">New Book</button>
+</div>
+  
+<div class="grid-container">
+      <app-book-item
+        *ngFor="let book1 of books; let i = index"
+        [book]="book1"
+        [index]="book1.uid"></app-book-item>
+</div>
+     

@@ -1,0 +1,38 @@
+.row{
+    margin-top: 20%;
+    margin-right: 40%;
+    height: 300px;
+    width: 200px;
+    border: 2px solid salmon;
+    padding: 10px;
+    margin-right: 100px;
+
+}
+
+button{
+    width: 45%;
+    margin: 5px;
+    height: 25px;
+    color: white;
+    font-size: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+
+.save{
+    background-color: #00334e
+}
+
+
+.cancel{
+    background-color: #a20a0a;
+}
+
+label{
+    font-weight: bold;
+    color: #060930;
+}
+
+.field{
+    margin-top:10px;
+}

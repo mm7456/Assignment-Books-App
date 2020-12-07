@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "books-sharing-app"
+    }
+  },
+  "defaultProject": "books-sharing-app",
+  "cli": {
+    "analytics": "4249a885-81b4-4f4b-af4b-0f1b5dd8e0a2"
+  }
 }
